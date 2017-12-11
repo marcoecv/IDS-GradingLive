@@ -1,0 +1,24 @@
+
+*** These modified files were found in JOE when it aborted on Tue Mar 29 17:59:39 2016
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+extension
+extension_dir
+display_errors
+log_errors
+error_log
+ifrbetticker
+
+*** File '(Unnamed)'
+index.php
+modules/login/login.php
+config/utils.php
+common.php
+common.php
+../companies.xml
+common.php
+liveplayer/public/js/custom.js
+app/Config/wsConfig.php
+app/Config/upConfig.php
+app/webroot/js/grade/livegradedb.js

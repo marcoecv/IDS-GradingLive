@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 3, 2014, 11:09:03 AM
+    Author     : marias
+*/
+
+
+/*******************************************************************************
+Confirmation response status
+********************************************************************************/
+
+
+.ok-delay-status-icon-marg{
+    margin-left: 10px;    
+}
+
+.ok-delay-status{
+    color: #419641;
+}
+
+.ok-delay-status-hide{
+    color: #FFFFFF;
+}
+
+.ok-delay-status-error{
+    color: #D05650;    
+}
+
+/*******************************************************************************
+Dialogs, spinners etc... ... ...
+********************************************************************************/
+

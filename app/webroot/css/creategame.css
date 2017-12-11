@@ -1,0 +1,64 @@
+.editGameLabelWith_cg{
+    width: 102px;
+}
+
+#teamAidModalCreate, #teamHidModalCreate, #pitcherHModalCreate, #pitcherAModalCreate{
+	width: 69%;
+	display: inline-block;
+}
+
+
+#countryidCreate, #leagueidCreate, #sportidCreate,#broadcastidCreate,#commentsCreate,#correlationidCreate,#pitcher1Create,#pitcher2Create{
+    width: 69%;
+}
+
+#rotANumberModalCreate, #rotHNumberModalCreate,#drawRotNumberCreate {
+	width: 75px;
+	display: inline-block;
+}
+
+
+.inlineElement{
+    display: inline;
+}
+
+#nextCreateGame, #cancelCreateGame, #saveCreateGame{
+    width: 10%;
+}
+#gamedateModalCreate, #gametimeModalCreate, #wagercutoffModalCreate {
+	width: 69%;
+}
+.left {
+	width: 50%;
+	float: left;
+	position: relative;
+	padding: 15px;	
+}
+
+.right {
+	width: 50%;
+	float: right;
+	position: relative;
+	padding: 15px;
+}
+
+.legend-fieldset-restrictions {
+    margin-top: 10px;
+    font-size:16px;
+    text-align:left;
+    width:inherit; /* Or auto */
+    padding:0 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
+    font-weight: bold;
+}
+
+.fieldset-restrictions {
+    border:1px solid #CCCCCC;
+    margin-top: 0em;
+    margin-left: 15px;
+    padding: 0 15px 15px 15px;
+}
+
+#pitcherDiv1, #pitcherDiv2{
+    width: 100%;
+}

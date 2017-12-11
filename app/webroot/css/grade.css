@@ -1,0 +1,1422 @@
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainConteiner{
+    padding: 10px;
+    width: 99%
+}
+
+.bordered-div {
+    border: 0.5px solid gray; 
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    margin: 2px;
+    width: 35%;
+    padding: 3px;
+    text-align: left;
+}
+
+.bordered-div2 {
+    border: 0.5px solid gray; 
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    margin: 2px;
+    text-align: left;
+}
+.bordered-div3 {
+    border: 0.5px solid gray; 
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    padding: 2px;
+    text-align: left;
+    width: 60%;
+}
+
+.bordered-div4 {
+    border: 0.5px solid gray; 
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 2px;
+    text-align: left;
+}
+.bordered-divHalf {
+    border: 0.5px solid gray; 
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 2px;
+    text-align: left;
+    height: 100px;
+}
+#gradingTable {
+    /*border: 1px solid #ddd;*/
+    font-size: 11px;
+    width: calc(100% - (13px));
+    table-layout: fixed;
+    background-color: #62707D;
+    color: white;
+    font-weight: bold;
+}
+
+#gradingTable tr td{
+    width: 100px;
+    padding: 5px;
+}
+#gradingTable tr td:hover{
+    background:#9AC0CA;
+    color: white;
+}
+
+
+#gradingTableBody{
+    background-color: #EEEEEE;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 11px;
+    color: #444;
+    font-weight: bold;
+}
+
+#gradingTableBody tr td{
+    border: 1px solid #ddd;
+    padding: 5px;
+    word-wrap: break-word;
+    width: 100px;
+}
+
+#gradingTableBody tbody tr:hover{
+    background-color:#ddd;
+}
+
+.inner_GradingTable {
+    height:400px;
+    width: 85%;
+    overflow-y: auto;
+}
+.inner_GameContestTable {
+    height:200px;
+    width: 60%;
+    overflow-y: auto;
+}
+.wrapGameContest{
+    width: 60%;
+    background-color: #62707D;
+}
+.wrapGrading{
+    width: 85%;
+    background-color: #62707D;
+}
+.inlineDiv{
+    display: inline-block;
+    width: 11%
+}
+.inlineDiv2{
+    display: inline-block;
+}
+
+.rightFloat{
+    text-align: left;
+    float: right;
+    width: 50%;
+    padding: 5px;
+}
+
+.leftFloat{
+    text-align: left;
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.rightFloat2{
+    text-align: left;
+    float: right;
+    width: 49%;
+    padding: 5px;
+}
+
+.leftFloat2{
+    text-align: left;
+    float: left;
+    width: 48%;
+    padding: 5px;
+}
+.checkDiv{
+    width: 60%
+}
+
+
+#subsportGradeFilter,#sportGradeFilter{
+    width: 150px;
+}
+#gameGradeFilters .elementLargeSize{
+    width: 200px;
+}
+
+#gameGradeFilters{
+    width: 90%;
+}
+
+#gradeFilterDateTo, #gradeFilterDateFrom{
+    width: 200px;
+}
+
+#gameGradeFilters .labelWidth{
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.rightButtonsDiv{
+    float: right;
+}
+th{
+    text-align: center;
+}
+
+.tdCenter{
+    text-align: center;
+}
+
+.tdCenter tr td{
+    padding: 3px;
+}
+.pitcherTdSize{
+    width: 130px;
+}
+
+.normalTdSize{
+    width: 50px;
+}
+.doubleTdSize{
+   width: 100px;
+}
+
+#gameGradeInfoModal .labelWidth{
+    width: 120px;
+    text-align: left;
+    padding-right: 10px
+}
+
+#gameGradeInfoModal .labelWidth2{
+    width: 120px;
+    text-align: right;
+    padding-left: 10px
+}
+
+#gameGradeInfoModal .labelWidth3{
+    width: 160px;
+    text-align: right;
+    padding-left: 10px
+}
+
+.taSize{
+    width: 100%;
+}
+#contestantMLHeadercontainer{
+     background-color: #62707D;
+    width: 550px;
+}
+#contestantMLtableHeader{
+    background-color: #62707D;
+    width: 537px;
+}
+
+#contestantMLtableHeader tr th{
+    background-color: #62707D;
+    color:white;
+    text-align: center;
+}
+
+#contestantMLcontainer{
+    width: 550px;
+    height: 300px;
+    overflow-y: scroll;
+}
+#contestantMLtable{
+    width: 100%;
+}
+#contestantMLtable tr th{
+    background-color: #31383E;
+    color: white;   
+}
+#contestantMLtable tr td{
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.ctWidth{
+    width: 250px;
+}
+
+.radioWidth{
+    width: 70px;
+}
+
+.focusStyle{
+    border: solid #0ac2fa 2px; 
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #0ac2fa;
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(10,194,250,0.38);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(10,194,250,0.38);
+    box-shadow: 0px 0px 15px 2px rgba(10,194,250,0.38);
+}
+
+.marginTeam{
+    margin: 10px;
+}
+.rotTeam{
+    margin: 10px;
+}
+#gradeGamesTableContainer .labelWidth{
+    width: 80px;
+}
+#gradeGamesTableContainer{
+    height: 675px;
+    overflow-y: scroll;
+}
+
+#gradeGamesTableHeaderContainer{
+    background-color: #62707d;
+    width: 100%;
+}
+.buttonWith{
+    width: 80px;
+    font-weight: bold;
+}
+#gamesGradeTableHeader{
+    text-align: center;
+    background-color: #62707D;
+    color: white;
+    font-size: 13px;
+    width: calc(100% - (13px));
+    
+}
+#gamesGradeTableHeader tr td,th{
+    font-weight: bold;
+    /*border: solid #EEEEEE 2px;*/
+}
+#gamesGradeTable tr td{
+    border: solid #EEEEEE 2px;
+}
+#gamesGradeTable tr:hover{
+    background-color: #F9F9F9;
+}
+.selectTd{
+    padding-top: 30px;
+    width: 45px;
+    text-align: center;
+}
+.dateTd{
+    padding-top: 30px;
+   width: 90px; 
+   text-align: left;
+}
+
+.gameInfoTd{
+    padding-top: 30px;
+    width: 400px;
+    text-align: left;
+}
+
+.selectTh{
+    width: 46px;
+    text-align: center;
+}
+.dateTh{
+   width: 94px; 
+   text-align: center;
+}
+
+.gameInfoTh{
+    width: 400px;
+    text-align: center;
+}
+.teamLabel{
+    margin: 10px;
+    width: 180px
+}
+
+#insTable{
+    background-color: transparent;
+}
+#insTable tr td{
+    text-align: center;
+    border: solid 2px transparent;
+}
+
+#insTable2{
+    background-color: transparent;
+}
+#insTable2 tr td{
+    text-align: center;
+    border: solid 2px transparent;
+}
+.scoresTd{
+    text-align: center;
+    width: 70px;
+}
+
+.pointsGTd{
+    padding-top: 30px;
+    text-align: center;
+    width: 70px;
+}
+
+.propContestDescTh{
+    width: 152px;
+    text-align: center;
+}
+.propContestDescTd{
+    border: 2px solid #eeeeee;
+    width: 150px;
+    text-align: center;
+}
+
+#propsGradeTableHeader{
+    text-align: center;
+    background-color: #62707D;
+    color: white;
+    font-size: 13px;
+    width: calc(100% - (13px));
+    
+}
+#propsGradeTableHeader tr td,th{
+    font-weight: bold;
+}
+#propsGradeTable tr:hover{
+    background-color: #F2EFEF;
+}
+
+#propsGamesTableContainer .labelWidth{
+    width: 80px;
+}
+#gradePropsTableContainer{
+    width: 90%;
+    height: 650px;
+    overflow-y: scroll;
+}
+
+#gradePropsTableHeaderContainer{
+    background-color: #62707d;
+    width: 90%;
+}
+.selectTd2{
+    border: 2px solid #eeeeee;
+    width: 45px;
+    text-align: center;
+}
+.propTypeTd{
+    border: 2px solid #eeeeee;
+    width: 100px;
+    text-align: center;
+}
+
+.propTypeTh{
+    width: 100px;
+    text-align: center;
+}
+
+.contestantsTd{
+    border: 2px solid #eeeeee;
+    width: 400px;
+    text-align: left;
+}
+
+.contestantsTh{
+    width: 400px;
+    text-align: center;
+}
+
+.pointsTd{
+    border: 2px solid #eeeeee;
+    width: 55px;
+    text-align: center;
+}
+
+.pointsTh{
+    width: 55px;
+    text-align: center;
+}
+
+.ratioTd{
+    border: 2px solid #eeeeee;
+    width: 140px;
+    text-align: center;
+}
+
+.ratioTh{
+    width: 140px;
+    text-align: center;
+}
+
+.commentsTd{
+    border: 2px solid #eeeeee;
+    width: 250px;
+    text-align: center;
+}
+
+.commentsTh{
+    width: 250px;
+    text-align: center;
+}
+
+.fdTd{
+    border: 2px solid #eeeeee;
+    width: 60px;
+    text-align: center;
+}
+
+.fdTh{
+    width: 60px;
+    text-align: center;
+}
+
+.gradeButtonTh{
+    width: 80px;
+    text-align: center;
+}
+
+.gradeButtonTd{
+    border: 2px solid #eeeeee;
+    width: 80px;
+    text-align: center;
+}
+
+#propsHeader{
+    width: 90%;
+}
+
+.internTable{
+    margin: auto;
+    border: 0px solid transparent;
+    width:80%;
+}
+.buttonsDiv{
+    margin: auto;
+    width: 90%;
+    text-align: right;
+}
+
+.pointsLabel{
+    margin: 7px;
+}
+
+.pointsLabelError{
+    font-size: 18px;
+    font-weight: bolder;
+    color: red;
+    margin: 7px;
+}
+.tabStyle{
+    background-color: #62707D;
+    color: white;
+    font-weight: bold;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+}
+.tabStyle:hover{
+    color: #515D69;
+}
+.tabStyle a{
+    color: white;
+    font-weight: bold;
+}
+.tabStyle a:hover{
+    background-color: #515D69;
+}
+#gamePropGradeFilters{
+    text-align: left;
+    width: 95%;
+}
+
+#gamePropGradeFiltersFrm{
+    width: 100%;
+    padding: 10px;
+}
+
+#gamePropGradeFilters .labelWidth2{
+    width: 120px;
+    text-align: right;
+    padding-left: 10px
+}
+
+#gamePropGradeFilters .labelWidth{
+    width: 120px;
+    text-align: right;
+}
+
+#futurePropGradeFilters{
+    text-align: left;
+    width: 90%;
+}
+
+#futurePropGradeFiltersFrm{
+    width: 100%;
+    padding: 10px;
+}
+
+#futurePropGradeFilters .labelWidth2{
+    width: 120px;
+    text-align: right;
+    padding-left: 10px
+}
+
+#futurePropGradeFilters .labelWidth{
+    width: 80px;
+    text-align: right;
+}
+
+#gamePropsGradeTableHeader{
+    text-align: center;
+    background-color: #62707D;
+    color: white;
+    font-size: 13px;
+    width: calc(100% - (13px));
+    
+}
+#gamePropsGradeTableHeader tr td,th{
+    font-weight: bold;
+}
+#propsGradeTable tr:hover{
+    background-color: #F2EFEF;
+}
+
+#gradeGamePropsTableContainer .labelWidth{
+    width: 80px;
+}
+#gradeGamePropsTableContainer{
+    width: 90%;
+    height: 650px;
+    overflow-y: scroll;
+}
+
+#gradeGamePropsTableHeaderContainer{
+    background-color: #62707d;
+    width: 90%;
+}
+
+
+
+#futPropsGradeTableHeader{
+    text-align: center;
+    background-color: #62707D;
+    color: white;
+    font-size: 13px;
+    width: calc(100% - (13px));
+}
+
+#futPropsGradeTableHeader tr td,th{
+    font-weight: bold;
+}
+
+#futPropsGradeTable tr:hover{
+    background-color: #F2EFEF;
+}
+
+#gradeFutPropsTableContainer .labelWidth{
+    width: 80px;
+}
+#gradeFutPropsTableContainer{
+    width: 90%;
+    height: 650px;
+    overflow-y: scroll;
+}
+
+#gradeFutPropsTableHeaderContainer{
+    background-color: #62707d;
+    width: 90%;
+}
+
+#extPropsGradeTableHeader{
+    text-align: center;
+    background-color: #62707D;
+    color: white;
+    font-size: 13px;
+    width: calc(100% - (13px));
+    
+}
+#extPropsGradeTableHeader tr td,th{
+    font-weight: bold;
+}
+#extPropsGradeTable tr:hover{
+    background-color: #F2EFEF;
+}
+
+#gradeExtPropsTableContainer .labelWidth{
+    width: 80px;
+}
+#gradeExtPropsTableContainer{
+    width: 90%;
+    height: 650px;
+    overflow-y: scroll;
+}
+
+#gradeExtPropsTableHeaderContainer{
+    background-color: #62707d;
+    width: 90%;
+}
+
+.gradeNoActionTable tr td,th{
+    text-align: center;
+    border: transparent solid 10px
+}
+
+
+.completedProp{
+    background-color: #FFD3D3;
+}
+
+/***********************************LIVE GRADING***********************************/
+.glg_bordered-div {
+    border: 0.5px solid gray; 
+    background-color: #EEEEEE;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 2px;
+    text-align: left;
+    min-height: 100px;
+    max-height: 100px;
+    width: 100%;
+}
+
+#glg_awayTeam,#glg_homeTeam{
+    min-width: 100px;
+}
+#glg_gradeGame tr td{
+    padding: 5px;
+}
+
+#glg_floarRight{
+    padding-top: 0.6%;
+    float: right;
+    width: 19%;
+    height: 95px;
+    max-height: 95px;
+    margin: 0px;
+}
+
+#glg_floatLeft{
+    margin: 0px;
+    float: left;
+    width: 30%;
+    height: 95px;
+}
+#glg_floatCenter{
+    display: inline-block;
+    margin: 0px;
+    width: 45%;
+    height: 90px;
+    border: solid black 1px;
+}
+
+#glg_scoreBoard{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+#glg_periodsFilter{
+    width: 100%;
+    height: 50px;
+    max-height: 50px;
+}
+#glg_periodsFilterTable{
+    width: 100%;
+    height: 100%;
+}
+
+#glg_periodsFilterTable tr td{
+    text-align: center;
+}
+
+.glg_tabStyle{
+    text-align:center;
+    width: 14.2%;
+    background-color: #62707D;
+    color: white;
+    font-weight: bold;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+    border: white 1px solid;
+}
+.glg_tabStyle:hover{
+    color: #515D69;
+}
+.glg_tabStyle a{
+    color: white;
+    font-weight: bold;
+}
+.glg_tabStyle a:hover{
+    background-color: #515D69;
+}
+
+#glg_propsPeriodHeaderDiv{
+    background-color: #62707D;
+    width: 100%;
+    color: white
+}
+
+#glg_propsPeriodHeader{
+    width: 100%;
+}
+#glg_propsPeriodHeader .cDesc{
+    width: 30%;
+}
+#glg_propsPeriodHeader .cont{
+    width: 40%;
+}
+#glg_propsPeriodHeader .odss{
+    width: 10%
+}
+#lg_propsPeriodHeader .cancel{
+    width: 10%;
+}
+#glg_propsPeriodHeader .grade{
+    width: 10%;
+}
+
+.showTable{
+    display: block;
+}
+
+.hideTable{
+    display: none;
+}
+
+.propsTable{
+    width: 100%;
+}
+.cDesc{
+    padding: 5px;
+    text-align: left;
+    width: 30%;
+    display: inline-block;
+}
+.cont{
+    padding: 5px;
+    text-align  : center;
+    width: 45%;
+    display: inline-block;
+}
+.odss{
+    padding: 5px;
+    text-align: center;
+    width: 10%;
+    display: inline-block;
+}
+.cancel{
+    padding: 5px;
+    text-align: center;
+    width: 5%;
+    display: inline-block;
+}
+.grade{
+    padding: 5px;
+    text-align: center;
+    width: 10%;
+    display: inline-block;
+}
+.propsTable tbody{
+    min-width: 100%;
+}
+.propsTable tr{
+    min-width: 100%;
+    border: solid black 1px;
+}
+
+.periodButtons{
+    width: 415px;
+}
+
+.tabbable,.glg_propsSheeds{
+    min-width: 100%;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+}
+.glg_propsSheeds{
+    background-color: #62707D;
+}
+
+.glg_addon{
+    padding: 3px;
+    margin: 5px;
+    border-radius: 3px;
+    border: solid #A5A5A5 1px;
+    background-color: #EEEEEE;
+    display: inline;
+}
+
+.labelAddon{
+    font-weight: normal;
+    color: black;
+}
+
+.graded{
+    font-weight: bold;
+    background-color: #A5A5A5;
+}
+
+.readyToGrade{
+    font-weight: bold;
+    background-color: #27315E;
+    color: white;
+    border: solid white 1px;
+    /*display: inline-block;*/
+}
+.gradeInProgress{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: solid white 1px;
+    /*display: inline-block;*/
+}
+
+.inProgress{
+    background-color: white;
+    color: black;
+    border: solid #A5A5A5 1px;
+    
+}
+.scroll{
+    overflow-y: scroll;
+    max-height: 600px;
+}
+
+#gameLiveGradeFilters{
+    width: 100%;
+}
+
+#colorsDiv{
+    display: inline-block;
+    height: 30px;
+    
+}
+
+.colorDivContainer{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: inline;
+}
+
+.colorTdContainer{
+    text-align: left;
+    padding: 10px;
+}
+.notEndetDiv{
+    display: inline;
+    border: 1px black solid;
+    border-radius: 3px;
+    background-color: white;
+    color: white;
+    min-width: 20px !important;
+    min-height: 20px !important;
+}
+
+.rtgradeDiv{
+    display: inline;
+    border: 1px  black solid;
+    border-radius: 3px;
+    background-color: #27315E;
+    color: #27315E;
+    min-width: 20px !important;
+    min-height: 20px !important;
+}
+
+.processGradeDiv{
+    display: inline;
+    border: 1px black solid;
+    border-radius: 3px;
+    background-color: black;
+    color: black;
+    min-width: 20px !important;
+    min-height: 20px !important;
+}
+
+.gradedDiv{
+    display: inline;
+    border: 1px black solid;
+    border-radius: 3px;
+    background-color: #A5A5A5;
+    color: #A5A5A5;
+    min-width: 20px !important;
+    min-height: 20px !important;
+}
+
+/****************************************LIVE GRADING DON BEST********************************************/
+#gameLiveGradeDBFilters{
+    width: 100%;
+}
+
+#glgdb_floatLeft{
+    margin: 0px;
+    float: left;
+    width: 30%;
+    height: 95px;
+}
+#glgdb_scoreBoard{
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+}
+#glgdb_gradeGame tr td{
+    padding: 5px;
+}
+#glgdb_scoreBoardDiv{
+    width: 60%;
+    height: 90px;
+    border: 1px black solid;
+    margin: auto;
+}
+
+#glgdb_scoreBoardTable{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+#glgdb_floatCenter{
+    display: inline-block;
+    margin: 0px;
+    width: 42%;
+    height: 90px;
+}
+#colorsDivdb{
+    display: inline-block;
+    height: 30px;
+}
+
+#glgdb_floarRight{
+    padding-top: 1.6%;
+    float: right;
+    width: 28%;
+    height: 95px;
+    max-height: 95px;
+    margin: 0px;
+}
+
+#glgdb_periodsFilter{
+    width: 100%;
+    height: 50px;
+    max-height: 50px;
+}
+
+#glgdb_periodsFilterTable{
+    width: 100%;
+    height: 100%;
+}
+
+#glgdb_periodsFilterTable tr td{
+    text-align: center;
+}
+
+.periodButtonsDB{
+    width: 237px;
+}
+
+.periodButtonsDBBaseBall{
+    width: 112px;
+}
+.propsTableDB{
+    width: 100%;
+}
+
+.propsTableDB tbody{
+    width: 100%;
+}
+
+.propsTableDB tbody tr{
+    border: solid 1px black;
+}
+
+.propsTableDB .desc{
+    font-weight: bold;
+    width: 550px;
+}
+
+.propsTableDB .winner{
+    width: 800px;
+    text-align: center;
+}
+
+.propsTableDB .push{
+    width: 100px;
+    text-align: center;
+}
+
+.propsTableDB .cancel{
+    width: 100px;
+    text-align: center;
+}
+
+.propsTableDB .grade{
+    width: 100px;
+    text-align: center;
+}
+
+.periodInProgress{
+    color: #00087A;
+    font-weight: bold;
+}
+
+.periodEnded{
+    color: black;
+}
+
+
+.cpmScoreLabel{
+    width: 100px;
+}
+
+.cpmScoreTF{
+    display: inline-block; 
+    width: 80px;
+    margin: 5px;    
+}
+
+.selectButton{
+    width: 300px; 
+    text-align: right;
+}
+
+.selectOptionDiv{
+    background-color: white; 
+    margin-left: 250px;
+    width: 300px;
+    padding: 10px; 
+    z-index: 3;
+    border: solid 1px #EEEEEE;
+    position: absolute;
+}
+
+.optionSelect{
+    text-align: left;
+}
+
+.optionSelect:hover{
+    background-color:#EEEEEE;
+}
+/****************************************LIVE GRADING DON BEST********************************************/
+#gameLiveGradeLSFilters{
+    width: 100%;
+}
+
+#glgls_floatLeft{
+    margin: 0px;
+    float: left;
+    width: 30%;
+    height: 95px;
+}
+#glgls_scoreBoard{
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+}
+#glgls_gradeGame tr td{
+    padding: 5px;
+}
+#glgls_scoreBoardDiv{
+    width: 60%;
+    height: 90px;
+    border: 1px black solid;
+    margin: auto;
+}
+
+#glgls_scoreBoardTable{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+#glgls_floatCenter{
+    display: inline-block;
+    margin: 0px;
+    width: 42%;
+    height: 90px;
+}
+#colorsDivls{
+    display: inline-block;
+    height: 30px;
+}
+
+#glgls_floarRight{
+    float: right;
+    width: 28%;
+    height: 95px;
+    max-height: 95px;
+    margin: 0px;
+    line-height: 43px;
+}
+
+#glgls_periodsFilter{
+    width: 100%;
+    height: 50px;
+    max-height: 50px;
+}
+
+#glgls_periodsFilterTable{
+    width: 100%;
+    height: 100%;
+}
+
+#glgls_periodsFilterTable tr td{
+    text-align: center;
+}
+
+.periodButtonsLS{
+    width: 237px;
+}
+
+.periodButtonsLSBaseBall{
+    width: 112px;
+}
+#glgls_propsTable{
+    width: 100%;
+}
+
+#glgls_propsTable tbody{
+    width: 100%;
+}
+
+#glgls_propsTable tbody tr{
+    width: 100%;
+    border: solid 1px black;
+}
+
+#glgls_propsTable .desc{
+    font-weight: bold;
+    width: 630px;
+}
+
+#glgls_propsTable .winner{
+    width: 850px;
+    text-align: center;
+}
+
+#glgls_propsTable .push{
+    width: 100px;
+    text-align: center;
+}
+
+#glgls_propsTable .cancel{
+    width: 100px;
+    text-align: center;
+}
+
+#glgls_propsTable .grade{
+    width: 100px;
+    text-align: center;
+}
+
+.periodInProgress{
+    color: #00087A;
+    font-weight: bold;
+}
+
+.periodEnded{
+    color: black;
+}
+
+
+.cpmScoreLabel{
+    width: 100px;
+}
+
+.cpmScoreTF{
+    display: inline-block; 
+    width: 80px;
+    margin: 5px;    
+}
+
+.selectButton{
+    width: 300px; 
+    text-align: right;
+}
+
+.selectOptionDiv{
+    background-color: white; 
+    margin-left: 250px;
+    width: 300px;
+    padding: 10px; 
+    z-index: 3;
+    border: solid 1px #EEEEEE;
+    position: absolute;
+}
+
+.optionSelect{
+    text-align: left;
+}
+
+.optionSelect:hover{
+    background-color:#EEEEEE;
+}
+
+#glgls_modal_ctTable{
+    width: 100%;
+}
+
+#glgls_modal_ctTable td{
+    padding: 10px;
+    border: 1px solid #E5E5E5;
+    text-align: center;
+}
+
+#glgls_modal_ctTable th{
+    padding: 10px;
+    border: 1px solid #E5E5E5;
+}
+
+#glgls_modal_contestDesc{
+    color: #27315E;
+    font-weight: bold;
+}
+
+
+.bin_info:hover{
+    color: red;
+}
+
+
+#bim_headerTableDiv{
+    width: 100%;
+}
+
+#bim_headerTable{
+    width: calc(100% - 18px);
+}
+
+#bin_tableDiv{
+    width: 100%;
+    height: 290px;
+    overflow-y: scroll;
+}
+
+#bin_table{
+    width: 100%;
+}
+
+.bim_ticket{
+    width: 10%;
+    text-align: center;
+}
+
+.bim_date{
+    width: 10%;
+    text-align: center;
+}
+
+.bim_custId{
+    width: 10%;
+    text-align: center;
+}
+
+.bim_contestDesc{
+    width: 35%;
+    text-align: left;
+}
+
+.bim_contestant{
+    width: 10%;
+    text-align: left;
+}
+
+.bim_threshold{
+    width: 7%;
+    text-align: center;
+}
+
+.bim_finalMoney{
+    width: 7%;
+    text-align: center;
+}
+
+.bim_amountWagered{
+    width: 7%;
+    text-align: center;
+}
+
+.bim_toWin{
+    width: 7%;
+    text-align: center;
+}
+
+.bim_outcome{
+    width: 7%;
+    text-align: center;
+}
+
+
+
+.bim_ticket2{
+    width: 9%;
+    text-align: center;
+}
+
+.bim_date2{
+    width: 9%;
+    text-align: center;
+}
+
+.bim_custId2{
+    width: 9%;
+    text-align: center;
+}
+
+.bim_contestDesc2{
+    width: 30%;
+    text-align: left;
+}
+
+.bim_contestant2{
+    width: 9%;
+    text-align: left;
+}
+
+.bim_threshold2{
+    width: 6%;
+    text-align: center;
+}
+
+.bim_finalMoney2{
+    width: 6%;
+    text-align: center;
+}
+
+.bim_amountWagered2{
+    width: 6%;
+    text-align: center;
+}
+
+.bim_toWin2{
+    width: 6%;
+    text-align: center;
+}
+
+.bim_outcome2{
+    width: 6%;
+    text-align: center;
+}
+
+#glgls_groupsFilter{
+    width: 100%;
+}
+
+#glgls_groupsFilterTable{
+    width: 100%;
+}
+
+#glgls_Games{
+    width: 100%;
+    height: 600px;
+    overflow-y: scroll
+}
+
+#glgls_propsTable{
+    width: 100%;
+}

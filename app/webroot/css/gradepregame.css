@@ -1,0 +1,246 @@
+.notEndetDiv{
+    display: inline;
+    border: 1px black solid;
+    border-radius: 3px;
+    background-color: white;
+    color: white;
+    min-width: 20px !important;
+    min-height: 20px !important;
+}
+
+.rtgradeDiv{
+    display: inline;
+    border: 1px  black solid;
+    border-radius: 3px;
+    background-color: #27315E;
+    color: #27315E;
+    min-width: 20px !important;
+    min-height: 20px !important;
+}
+
+.processGradeDiv{
+    display: inline;
+    border: 1px black solid;
+    border-radius: 3px;
+    background-color: black;
+    color: black;
+    min-width: 20px !important;
+    min-height: 20px !important;
+}
+
+.gradedDiv{
+    display: inline;
+    border: 1px black solid;
+    border-radius: 3px;
+    background-color: #A5A5A5;
+    color: #A5A5A5;
+    min-width: 20px !important;
+    min-height: 20px !important;
+}
+
+.colorTdContainer{
+    text-align: left;
+    padding: 2px;
+}
+
+
+.gameContainerTable{
+    width: 100%
+}
+
+.gameContainerTable tr td{
+    margin: 10px;
+}
+
+.gameContainerTable tr th{
+    margin: 10px;
+    text-align: center;
+}
+
+.gameDiv{
+    background-color: #ededed;
+    border: solid 1px #A5A5A5;
+    padding: 0px;
+}
+
+
+.gameDiv2{
+    background-color: #515D69;
+    border: solid 1px black;
+    padding: 0px;
+    color: white;
+}
+
+
+.tdTeams{
+    width: 25%;
+}
+
+.pgg_propsTable{
+    width: 100%;
+}
+
+.pgg_propsTable tbody{
+    width: 100%;
+}
+
+.pgg_propsTable tbody tr{
+    width: 100%;
+    border: solid 1px black;
+}
+
+.pgg_propsTable .desc{
+    font-weight: bold;
+}
+
+.pgg_propsTable .winner{
+    text-align: center;
+}
+
+.pgg_propsTable .push{
+    text-align: center;
+}
+
+.pgg_propsTable .cancel{
+    text-align: center;
+}
+
+.pgg_propsTable .grade{
+    text-align: center;
+}
+
+.pgg_propsTable{
+    width: 100%;
+}
+
+.inlineElement{
+    float: left;
+}
+
+
+#pgg_modal_ctTable{
+    width: 100%;
+}
+
+#pgg_modal_ctTable td{
+    padding: 10px;
+    border: 1px solid #E5E5E5;
+    text-align: center;
+}
+
+#pgg_modal_ctTable th{
+    padding: 10px;
+    border: 1px solid #E5E5E5;
+}
+
+.graded{
+    font-weight: bold;
+    background-color: #A5A5A5;
+}
+
+.readyToGrade{
+    font-weight: bold;
+    background-color: #27315E;
+    color: white;
+    border: solid white 1px;
+    /*display: inline-block;*/
+}
+.gradeInProgress{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: solid white 1px;
+    /*display: inline-block;*/
+}
+
+.inProgress{
+    background-color: white;
+    color: black;
+    border: solid #A5A5A5 1px;
+    
+}
+
+.headerLabel{
+    width: 31%;
+}
+
+.headerSelect{
+    width: 64%;
+    height: 40px;
+    border-radius: 3px;
+}
+
+
+
+.bin_info:hover{
+    color: red;
+}
+
+
+#bim_headerTableDiv{
+    width: 100%;
+}
+
+#bim_headerTable{
+    width: calc(100% - 18px);
+}
+
+#bin_tableDiv{
+    width: 100%;
+    height: 290px;
+    overflow-y: scroll;
+}
+
+#bin_table{
+    width: 100%;
+}
+
+.bim_ticket{
+    width: 7%;
+    text-align: center;
+}
+
+.bim_date{
+    width: 8%;
+    text-align: center;
+}
+
+.bim_custId{
+    width: 8%;
+    text-align: center;
+}
+
+.bim_contestDesc{
+    width: 30%;
+    text-align: left;
+}
+
+.bim_contestant{
+    width: 16%;
+    text-align: left;
+}
+
+.bim_threshold{
+    width: 7%;
+    text-align: center;
+}
+
+.bim_finalMoney{
+    width: 5%;
+    text-align: center;
+}
+
+.bim_amountWagered{
+    width: 6%;
+    text-align: center;
+}
+
+.bim_toWin{
+    width: 6%;
+    text-align: center;
+}
+
+.bim_outcome{
+    width: 7%;
+    text-align: center;
+}

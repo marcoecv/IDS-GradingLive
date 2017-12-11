@@ -1,0 +1,179 @@
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	min-width: 1120px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.42857;
+}
+
+#container_fluid {
+	height: 100%;
+}
+
+#menu {
+	left: 0px;
+	top: 0px;
+	width: 130px;
+	height: 100%;
+	background: #62707d;
+	position: fixed;
+	display: block;
+	z-index: 100;
+}
+
+#menu > .btn-menu {
+	width: 125px;
+	height: 40px;
+	color: #FFFFFF;
+	display: block;
+	padding: 9px 0 0 15px;
+	margin: 2px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#menu .btn-group {
+	margin: 2px;
+	width: 126px;
+	height: 40px;
+}
+
+#menu .menu-group-value {
+	width: 100%;
+	height: 40px;
+	padding: 9px 0 0 15px;
+	text-transform: uppercase;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+#menu .menu-group-arrow {
+	height: 40px;
+	color: #FFFFFF;
+}
+
+.btn-menu {
+	background: #62707D;
+	border-color: #515D69;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-menu-selected {
+	background: #515D69;
+	border-color: #515D69;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-menu:hover, .btn-menu:focus {
+	background: #515D69;
+	border-color: #515D69;
+}
+
+#header {
+	top: 0px;
+    width: 100%;
+	height: 45px;
+	position: relative;
+	display: block;
+	border-bottom: 5px solid #0aa699;
+	padding: 3px 0 0 9px;
+}
+
+#header .title {
+	font-size: 20px;
+	font-weight: 500;
+	overflow: hidden;
+	display: inline;
+}
+
+#footer {
+	left: 130px;
+    clear: both;
+    position: relative;
+    height: 60px;
+    width: -moz-calc(100% - (130px));
+    width: -webkit-calc(100% - (130px));
+    width: calc(100% - (130px));
+    border-top: 5px solid #0aa699;
+    background: #FFFFFF;
+    z-index: 99;
+}
+
+#content {
+	margin-bottom: 0px;
+	left: 130px;
+	width: -moz-calc(100% - (130px));
+    width: -webkit-calc(100% - (130px));
+    width: calc(100% - (130px));
+	height: -moz-calc(100% - (60px));
+    height: -webkit-calc(100% - (60px));
+    height: calc(100% - (60px));
+	position: relative;
+	display: block;
+	overflow-y: scroll;
+}
+
+.btn-controls{
+	width: 96%;
+	margin: 10px 2%;
+}
+
+.btn-edit {
+	background: #0AA699;
+	color: #FFFFFF;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-edit:hover{
+	background: #088B80;
+	color: #FFFFFF;
+}
+
+.btn-cancel {
+	background: #F35958;
+	color: #FFFFFF;
+	border-right: none;
+	border-left: none;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-cancel:hover{
+	background: #C64848;
+	color: #FFFFFF;
+}
+
+.btn-save {
+	background: #0099FF;
+	color: #FFFFFF;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-save:hover {
+	background: #0082D8;
+	color: #FFFFFF;
+}
+
+.btn-save:focus, .btn-cancel:focus, .btn-edit:focus {
+	color: #FFFFFF;
+}
+
+.separator {
+	height: 10px;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	display: block;
+	margin: 15px 0;
+}
+.vakata-context, .vakata-context ul{
+    z-index: 801 !important;
+}

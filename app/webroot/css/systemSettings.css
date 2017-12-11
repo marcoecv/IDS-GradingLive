@@ -1,0 +1,76 @@
+.marginElement{
+    margin-left: 30px;
+}
+
+.headerDiv2{
+    width: 100%;
+    padding: 5px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rightDivSet{
+    height: 220px;
+    width: 60%;
+    text-align: left;
+}
+
+#leftDivSet{
+    height: 220px;
+    width: 38%;
+}
+
+.leftFloat3{
+    text-align: left;
+    float: left;
+    width: 40%;
+}
+
+.rightFloat3{
+    text-align: left;
+    float: right;
+    width: 55%;
+}
+
+#notAdmin{
+    margin-top: 250px;
+    height: 120px
+}
+.bordered-div3 {
+    border: 1px solid gray; 
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px;
+}
+
+.rightFloat{
+    text-align: left;
+    float: right;
+    width: 50%;
+}
+
+.modalDiv{
+    height: 70px;
+}
+
+#rightDivSet label{
+    width: 360px;
+}
+
+#centralValues{
+    
+}
+
+.hide{
+    /*display: none;*/
+    visibility: hidden
+}
+
+.show{
+    /*display: block;*/
+    visibility: visible;
+}
